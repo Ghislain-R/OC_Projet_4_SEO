@@ -825,6 +825,13 @@ h4 {
     background-image: url("img/image-de-presentation.jpg");
 }
 
+/****Modifications ajoutées****/
+.mg-md {
+    font-size: large;
+    font-weight: bold;
+}
+/******************************/
+
 
 @media (max-width: 1024px) {
     .bloc {
