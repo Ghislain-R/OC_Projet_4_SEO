@@ -771,7 +771,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+   background-color: #F3976C;
 }
 
 .tc-white {
@@ -824,6 +824,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
