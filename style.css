@@ -830,6 +830,31 @@ h4 {
     font-size: large;
     font-weight: bold;
 }
+
+/****Citation***/
+blockquote
+{
+    margin-bottom: 0px;
+    border-left: none;
+}
+
+blockquote p
+{
+    font-size: 19.5px;
+    color: black;
+    font-style: italic;
+}
+
+.text-sign
+{
+    font-size: 15px;
+}
+
+.title
+{
+    font-size: 22px;
+}
+
 /******************************/
 
 
