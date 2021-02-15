@@ -802,7 +802,7 @@ width:100%
 
 .liens li {
 list-style-type:none;
-text-decoration:underline;
+/*text-decoration:underline;*/
 margin-bottom:10px
 }
 
@@ -816,7 +816,8 @@ font-size:15px
 
 .liens li a:hover {
 color:#0A026F;
-font-weight:700
+font-weight:600;
+text-decoration:underline
 }
 
 #form_1 {
@@ -1082,4 +1083,31 @@ padding-right:0
 .bloc-mob-center-text {
 text-align:center
 }
+}
+
+/********Gestion du focus*******/
+/*****Encadrement des éléments sélectionnables sur :focus*****/
+a:focus
+{
+border: solid 3px black;  
+}
+
+.cta-hero:focus
+{
+border: solid 3px black;  
+}
+
+.form-control:focus
+{
+border: solid 3px black; 
+}
+
+.social:focus .icon-md
+{
+border: solid 3px black;  
+}
+
+.social:focus
+{
+border:none;
 }

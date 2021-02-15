@@ -4606,7 +4606,7 @@ line-height:20px
 }
 
 .navbar-brand:focus,.navbar-brand:hover {
-text-decoration:none
+text-decoration: none;
 }
 
 .navbar-brand>img {
