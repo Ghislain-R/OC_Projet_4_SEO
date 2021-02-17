@@ -80,7 +80,7 @@ right:0
 }
 
 .texture-paper::before {
-background:url(img/texture-paper.webp);
+/*background:url(img/texture-paper.webp);*/
 background-size:280px 280px
 }
 
@@ -589,7 +589,7 @@ color:#000
 
 .hero-bloc-text {
 font-size:38px;
-text-align:center
+text-align:center;
 }
 
 .hero-bloc-text-sub {
@@ -708,8 +708,16 @@ background-color:#364577
 background-color:#F3976C
 }
 
+.bgc-atomic-tangerine1 {
+background-color:#772600!important;
+}
+
 .tc-white {
-color:#FFF!important
+color:#FFF!important;
+}
+
+.tc-white1{
+color:#FFFFFF!important;
 }
 
 .btn-atomic-tangerine {
